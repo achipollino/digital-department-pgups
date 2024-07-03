@@ -1,0 +1,64 @@
+.menu {
+    position: fixed;
+    top: 35px;
+    right: 80px;
+    z-index: 1000;
+}
+  
+.menu-link {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: $color-menu;
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-decoration: none;
+    z-index: 10000;
+}
+  
+.menu-line {
+    display: inline-block;
+    position: absolute;
+    left: auto;
+    right: 0;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 28px;
+    height: 2px;
+    transition: background-color 0.3s;
+    background: white;
+}
+  
+.menu-line.is-clicked {
+    background-color: transparent;
+}
+  
+.menu-line::before,
+.menu-line::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    background: white;
+    transition: transform 0.3s, top 0.3s, background-color 0s;
+}
+  
+.menu-line::before {
+    top: -8px;
+}
+  
+.menu-line::after {
+    top: 8px;
+}
+  
+.menu-line.is-clicked::before {
+    top: 0;
+    transform: rotate(135deg);
+}
+  
+.menu-line.is-clicked::after {
+    top: 0;
+    transform: rotate(225deg);
+}
