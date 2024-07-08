@@ -1,0 +1,15 @@
+.btn {
+    padding: 12px 20px 13px 20px;
+    border: 2px solid;
+    border-color: $color-border;
+    cursor: pointer;
+    background: $color-button;
+    color: $color-white;
+    border-radius: 10px;
+    font-size: 20px;
+    @extend %transition;
+  }
+  
+  .btn:hover {
+    background: $color-button-hover;
+}

@@ -1,5 +1,34 @@
 $color-header: linear-gradient(90deg, rgba(0, 27, 113, 1) 14%, rgba(0, 53, 255, 1) 100%);
-$color-header-title: #ffffff;
+$color-header-info: #ffffff;
 $color-menu: #0d0448;
+$color-white: #ffffff;
+$color-link: rgb(0, 27, 113);
+$color-link-hover: #4f6bdf;
 
-$color-navigation-bg: #231582;
+$color-navigation-bg: rgba(0, 27, 113, 0.9);
+$color-item: #ffffff;
+$color-item-hover: rgb(122, 128, 145);
+
+$color-term-title: #001b71;
+
+$color-programs-bg: #2c209e;
+$color-programs-item-bg: #372ba3;
+$color-programs-item-bg-hover: rgba(255, 255, 255, 0.25);
+
+$color-program-bg: linear-gradient(0deg, #231582 0%, #0d0448 100%);
+$color-program-main: #8c7fff;
+
+$footer-bg: #001b71;
+
+$color-nav-form-bg: rgba(51, 95, 236, 0.9);
+$color-form-bg: #001b71;
+$color-form-border: rgb(193, 187, 187);
+
+
+$color-button: transparent;
+$color-button-hover: #4a3d96;
+$color-border: #4a3d96;
+
+$content-width: 1440px;
+$term-item-width: 710px;
+$program-text-width: 890px;

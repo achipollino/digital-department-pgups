@@ -1,0 +1,84 @@
+.program {
+    padding: 80px 0;
+    background: $color-program-bg;
+}
+  
+.program-number {
+    text-transform: uppercase;
+    color: $color-white;
+    font-size: 22px;
+}
+  
+.program-title {
+    margin-top: 30px;
+    color: $color-program-main;
+}
+  
+.program-actions {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+  
+.program-action {
+    padding: 12px 20px 13px 20px;
+    border: 1px solid $color-program-main;
+    color: $color-program-main;
+    border-radius: 25px;
+    font-size: 17px;
+}
+  
+.program-description {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+.program-text {
+    max-width: $program-text-width;
+    color: $color-white;
+    font-size: 24px;
+    line-height: 1.6;
+    margin-bottom: 100px;
+}
+  
+.program-list {
+    color: $color-white;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.module {
+    color: $color-program-main;
+    text-transform: uppercase;
+}
+  
+.module-faq {
+    color: $color-program-main;
+}
+  
+.program-button {
+    margin-top: 40px;
+    text-align: center;
+}
+  
+.for-who {
+    margin-top: 40px;
+}
+  
+.for-who-items {
+    margin-left: 20px;
+}
+  
+.for-who-items li {
+    color: $color-program-main;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+  
+.for-who-items li p {
+    color: $color-white;
+}

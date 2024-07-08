@@ -1,0 +1,39 @@
+.programs {
+    padding: 60px 0 80px 0;
+    background: $color-programs-bg;
+}
+  
+.programs-title {
+    color: $color-white;
+}
+  
+.programs-items {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+  
+.programs-item {
+    box-sizing: border-box;
+    min-height: 200px;
+    background: $color-programs-item-bg;
+    @extend %transition;
+}
+  
+.programs-item:hover {
+    background: $color-programs-item-bg-hover;
+    cursor: pointer;
+}
+  
+.programs-link {
+    text-decoration: none;
+    color: $color-white;
+    text-transform: uppercase;
+    font-size: 26px;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    padding: 40px 150px 35px 40px;
+    box-sizing: border-box;
+}

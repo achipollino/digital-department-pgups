@@ -6,7 +6,7 @@
     width: 100%;
     z-index: 4000;
     text-align: center;
-    background: rgba(31, 61, 160, 0.9);
+    background: $color-navigation-bg;
     padding: 30px 0;
     display: none;
 }
@@ -23,9 +23,9 @@
     text-decoration: none;
     color: white;
     font-size: 26px;
-    transition: all 0.3s;
+    @extend %transition;
 }
   
   .menu-items li a:hover {
-    color: rgb(0, 27, 113);
+    color: $color-item-hover;
 }
